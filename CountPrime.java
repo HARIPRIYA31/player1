@@ -24,9 +24,10 @@ public class CountPrime {
 		}
 		     if(count==1)
 			 System.out.println(j);
-		}
+		
     if(count==0)
       System.out.println("NO PRIME NUMBERS FOUND");
+		}
         sc.close();
 	}
 
