@@ -6,7 +6,6 @@ public class StringToInteger {
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
-		System.out.println("STRING:");
 		String str=sc.nextLine();
 		int ans=Integer.parseInt(str);
     if(ans>0)
