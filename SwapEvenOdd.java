@@ -9,8 +9,7 @@ public class SwapEvenOdd {
 		String str=sc.nextLine();
 		char arr[]=new char[str.length()];
 		char swap,temp;
-    if(str.length()==arr.length)
-    {
+   
 		if(str.length()%2==0)
 		{
 		for(int i=0;i<str.length();i=i+2)
@@ -32,9 +31,11 @@ public class SwapEvenOdd {
 			}
 			arr[str.length()-1]=str.charAt(str.length()-1);
 		}
+		if(str.length()==arr.length)
+                 {
 		String ans=String.valueOf(arr);
 		System.out.println(ans);
-    }
+                }
     else
       System.out.println("NOT IN RANGE");
         sc.close();
